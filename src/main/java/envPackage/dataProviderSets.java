@@ -13,7 +13,7 @@ public class dataProviderSets {
 		return new Object[][] {
 
 				// Valid user login credentials
-				{ "9876543212", "qwerty@123", "+44", false, 200 },
+				{ "9876543212", "qwerty", "+44", false, 200 },
 
 				// Phone number doesn't exist
 				{ "1234567890", "test123", "+1", false, 404 },
