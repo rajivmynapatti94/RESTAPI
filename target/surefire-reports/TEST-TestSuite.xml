@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.862" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="37.058" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/>
@@ -25,7 +25,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/indianic/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2796745290493990734.tmp"/>
+    <property name="classworlds.conf" value="/Users/indianic/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8232308348815937884.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/indianic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,25 +61,25 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="4.289"/>
-  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.595"/>
-  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.672"/>
-  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.582"/>
-  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="1.139"/>
-  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.575"/>
-  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.608"/>
-  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.582"/>
-  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.602"/>
-  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.601"/>
-  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.574"/>
-  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.598"/>
-  <testcase name="ListOfSpaceType" classname="HolofyAPIs.GetSpaceList" time="1.754"/>
-  <testcase name="createNewSpaceAPI" classname="HolofyAPIs.CreateSpace" time="2.75"/>
-  <testcase name="createNewSpaceAPI" classname="HolofyAPIs.CreateSpace" time="2.63"/>
-  <testcase name="EditSpaceAPI" classname="HolofyAPIs.EditCreatedSpace" time="3.499"/>
-  <testcase name="Productlist" classname="HolofyAPIs.getProductList" time="1.913"/>
-  <testcase name="AddProductToSpaceAPI" classname="HolofyAPIs.AddProductToSpace" time="3.459"/>
-  <testcase name="deleteSpaceAPI" classname="HolofyAPIs.RemoveCreateSpace" time="2.5"/>
-  <testcase name="updateProductAPI" classname="HolofyAPIs.EditProduct" time="4.205"/>
-  <testcase name="removeAddedProductAPI" classname="HolofyAPIs.RemoveProductFromSpace" time="4.262"/>
+  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="2.011"/>
+  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.621"/>
+  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.674"/>
+  <testcase name="getLoginAPI" classname="HolofyAPIs.AppLogin" time="0.622"/>
+  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="1.09"/>
+  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.63"/>
+  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.574"/>
+  <testcase name="forgotpasswordWithNumberAPI" classname="HolofyAPIs.ForgotPasswordWithNumber" time="0.602"/>
+  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.581"/>
+  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.589"/>
+  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.585"/>
+  <testcase name="forgotpasswordWithEmailAPI" classname="HolofyAPIs.ForgotpasswordWithEmail" time="0.583"/>
+  <testcase name="ListOfSpaceType" classname="HolofyAPIs.GetSpaceList" time="1.787"/>
+  <testcase name="createNewSpaceAPI" classname="HolofyAPIs.CreateSpace" time="2.638"/>
+  <testcase name="createNewSpaceAPI" classname="HolofyAPIs.CreateSpace" time="2.562"/>
+  <testcase name="EditSpaceAPI" classname="HolofyAPIs.EditCreatedSpace" time="3.57"/>
+  <testcase name="Productlist" classname="HolofyAPIs.getProductList" time="1.949"/>
+  <testcase name="AddProductToSpaceAPI" classname="HolofyAPIs.AddProductToSpace" time="3.462"/>
+  <testcase name="deleteSpaceAPI" classname="HolofyAPIs.RemoveCreateSpace" time="2.477"/>
+  <testcase name="updateProductAPI" classname="HolofyAPIs.EditProduct" time="4.281"/>
+  <testcase name="removeAddedProductAPI" classname="HolofyAPIs.RemoveProductFromSpace" time="4.167"/>
 </testsuite>

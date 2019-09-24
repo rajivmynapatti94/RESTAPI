@@ -68,6 +68,78 @@
 			</plugin>
 
 
+			<!-- Post-Man plugin -->
+			<plugin>
+				<groupId>ch.fortysix</groupId>
+				<artifactId>maven-postman-plugin</artifactId>
+				<executions>
+					<execution>
+
+						<id>send a mail</id>
+						<phase>test</phase>
+						<goals>
+							<goal>send-mail</goal>
+						</goals>
+						<inherited>true</inherited>
+
+						<configuration>
+							<!-- From Email address -->
+							<from>rajiv.mynapatti@indianic.com</from>
+
+							<!-- Email subject -->
+							<subject>HOLOFY - REST API Automation Extent Reporting</subject>
+
+							<!-- Fail the build if the mail doesnt reach -->
+							<failonerror>true</failonerror>
+
+							<!-- host -->
+							<mailhost>smtp.gmail.com</mailhost>
+							<!-- port of the host -->
+							<mailport>465</mailport>
+							<mailssl>true</mailssl>
+							<mailAltConfig>true</mailAltConfig>
+
+							<!-- Email Authentication(USername and Password) -->
+							<mailuser>rajiv.mynapatti@indianic.com</mailuser>
+							<mailpassword>mynapatti$1</mailpassword>
+
+							<receivers>
+								<!-- To Email address -->
+								<receiver>rajiv.mynapatti@indianic.com</receiver>
+								<!-- <receiver>naushil.jain@indianic.com</receiver> -->
+							</receivers>
+
+							<fileSets>
+								<fileSet>
+									<!-- Report directory Path -->
+									<directory>/Users/indianic/git/RESTAPI/target/surefire-reports</directory>
+									<includes>
+										<!-- Report file name -->
+										<include>emailable-report.html</include>
+										<include>ExtentReportsTestNG.html</include>
+									</includes>
+									<!-- Use Regular Expressions like **/*.html if you want all the 
+										html files to send -->
+								</fileSet>
+
+								<fileSet>
+									<!-- Logs directory Path -->
+									<directory>/Users/indianic/git/RESTAPI/logs</directory>
+									<includes>
+										<!-- Report file name -->
+										<include>**/*.log</include>
+									</includes>
+									<!-- Use Regular Expressions like **/*.html if you want all the 
+										html files to send -->
+								</fileSet>
+							</fileSets>
+
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+
 
 
 		</plugins>
@@ -366,5 +438,7 @@
 		</dependency>
 
 	</dependencies>
+
+
 </project>
 
