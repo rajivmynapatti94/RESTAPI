@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3828" started-at="2019-09-24T05:59:18Z" finished-at="2019-09-24T05:59:22Z">
+  <suite name="Suite" duration-ms="38418" started-at="2019-09-24T09:42:08Z" finished-at="2019-09-24T09:42:46Z">
     <groups>
     </groups>
-    <test name="Holofy-APIs" duration-ms="3828" started-at="2019-09-24T05:59:18Z" finished-at="2019-09-24T05:59:22Z">
-      <class name="HolofyAPIs.AppLogin">
-        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.AppLogin@65f095f8]" name="getBaseURI" is-config="true" duration-ms="5" started-at="2019-09-24T11:29:18Z" finished-at="2019-09-24T11:29:18Z">
+    <test name="Holofy-APIs" duration-ms="38418" started-at="2019-09-24T09:42:08Z" finished-at="2019-09-24T09:42:46Z">
+      <class name="HolofyAPIs.CreateSpace">
+        <test-method status="PASS" signature="createNewSpaceAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.CreateSpace@11bd0f3b]" name="createNewSpaceAPI" duration-ms="2753" started-at="2019-09-24T15:12:21Z" data-provider="Create-New-Space" finished-at="2019-09-24T15:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My New Space From API]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verifying if the space is getting created or not]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getBaseURI -->
-        <test-method status="FAIL" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@65f095f8]" name="getLoginAPI" duration-ms="1911" started-at="2019-09-24T11:29:18Z" data-provider="login-credentials" finished-at="2019-09-24T11:29:20Z">
+        </test-method> <!-- createNewSpaceAPI -->
+        <test-method status="PASS" signature="createNewSpaceAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.CreateSpace@11bd0f3b]" name="createNewSpaceAPI" duration-ms="2636" started-at="2019-09-24T15:12:24Z" data-provider="Create-New-Space" finished-at="2019-09-24T15:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My New Space From API]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verifying if the space is getting created or not]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewSpaceAPI -->
+      </class> <!-- HolofyAPIs.CreateSpace -->
+      <class name="HolofyAPIs.RemoveProductFromSpace">
+        <test-method status="PASS" signature="removeAddedProductAPI()[pri:0, instance:HolofyAPIs.RemoveProductFromSpace@5fd4f8f5]" name="removeAddedProductAPI" duration-ms="4263" started-at="2019-09-24T15:12:42Z" finished-at="2019-09-24T15:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAddedProductAPI -->
+      </class> <!-- HolofyAPIs.RemoveProductFromSpace -->
+      <class name="HolofyAPIs.ForgotPasswordWithNumber">
+        <test-method status="PASS" signature="forgotpasswordWithNumberAPI(java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotPasswordWithNumber@378542de]" name="forgotpasswordWithNumberAPI" duration-ms="1140" started-at="2019-09-24T15:12:14Z" data-provider="forgot-passwordWithNumber" finished-at="2019-09-24T15:12:15Z">
           <params>
             <param index="0">
               <value>
@@ -20,7 +86,159 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[qwerty@123]]>
+                <![CDATA[+44]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithNumberAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithNumberAPI(java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotPasswordWithNumber@378542de]" name="forgotpasswordWithNumberAPI" duration-ms="575" started-at="2019-09-24T15:12:15Z" data-provider="forgot-passwordWithNumber" finished-at="2019-09-24T15:12:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithNumberAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithNumberAPI(java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotPasswordWithNumber@378542de]" name="forgotpasswordWithNumberAPI" duration-ms="606" started-at="2019-09-24T15:12:16Z" data-provider="forgot-passwordWithNumber" finished-at="2019-09-24T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithNumberAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithNumberAPI(java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotPasswordWithNumber@378542de]" name="forgotpasswordWithNumberAPI" duration-ms="585" started-at="2019-09-24T15:12:17Z" data-provider="forgot-passwordWithNumber" finished-at="2019-09-24T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test+12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithNumberAPI -->
+      </class> <!-- HolofyAPIs.ForgotPasswordWithNumber -->
+      <class name="HolofyAPIs.ForgotpasswordWithEmail">
+        <test-method status="PASS" signature="forgotpasswordWithEmailAPI(java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotpasswordWithEmail@3738449f]" name="forgotpasswordWithEmailAPI" duration-ms="601" started-at="2019-09-24T15:12:17Z" data-provider="forgot-passwordWithEmail" finished-at="2019-09-24T15:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test+12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithEmailAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithEmailAPI(java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotpasswordWithEmail@3738449f]" name="forgotpasswordWithEmailAPI" duration-ms="601" started-at="2019-09-24T15:12:18Z" data-provider="forgot-passwordWithEmail" finished-at="2019-09-24T15:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@grr.la]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithEmailAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithEmailAPI(java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotpasswordWithEmail@3738449f]" name="forgotpasswordWithEmailAPI" duration-ms="573" started-at="2019-09-24T15:12:18Z" data-provider="forgot-passwordWithEmail" finished-at="2019-09-24T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithEmailAPI -->
+        <test-method status="PASS" signature="forgotpasswordWithEmailAPI(java.lang.String, int)[pri:0, instance:HolofyAPIs.ForgotpasswordWithEmail@3738449f]" name="forgotpasswordWithEmailAPI" duration-ms="597" started-at="2019-09-24T15:12:19Z" data-provider="forgot-passwordWithEmail" finished-at="2019-09-24T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordWithEmailAPI -->
+      </class> <!-- HolofyAPIs.ForgotpasswordWithEmail -->
+      <class name="HolofyAPIs.AppLogin">
+        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@e7edb54]" name="getLoginAPI" duration-ms="4288" started-at="2019-09-24T15:12:08Z" data-provider="login-credentials" finished-at="2019-09-24T15:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9876543212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwerty]]>
               </value>
             </param>
             <param index="2">
@@ -39,96 +257,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <400>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <400>.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at HolofyAPIs.AppLogin.getLoginAPI(AppLogin.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginAPI -->
-        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@65f095f8]" name="getLoginAPI" duration-ms="606" started-at="2019-09-24T11:29:20Z" data-provider="login-credentials" finished-at="2019-09-24T11:29:21Z">
+        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@e7edb54]" name="getLoginAPI" duration-ms="596" started-at="2019-09-24T15:12:12Z" data-provider="login-credentials" finished-at="2019-09-24T15:12:13Z">
           <params>
             <param index="0">
               <value>
@@ -159,7 +291,7 @@ Expected status code <200> but was <400>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginAPI -->
-        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@65f095f8]" name="getLoginAPI" duration-ms="686" started-at="2019-09-24T11:29:21Z" data-provider="login-credentials" finished-at="2019-09-24T11:29:21Z">
+        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@e7edb54]" name="getLoginAPI" duration-ms="672" started-at="2019-09-24T15:12:13Z" data-provider="login-credentials" finished-at="2019-09-24T15:12:14Z">
           <params>
             <param index="0">
               <value>
@@ -190,7 +322,7 @@ Expected status code <200> but was <400>.
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginAPI -->
-        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@65f095f8]" name="getLoginAPI" duration-ms="607" started-at="2019-09-24T11:29:21Z" data-provider="login-credentials" finished-at="2019-09-24T11:29:22Z">
+        <test-method status="PASS" signature="getLoginAPI(java.lang.String, java.lang.String, java.lang.String, boolean, int)[pri:0, instance:HolofyAPIs.AppLogin@e7edb54]" name="getLoginAPI" duration-ms="582" started-at="2019-09-24T15:12:14Z" data-provider="login-credentials" finished-at="2019-09-24T15:12:14Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -220,6 +352,160 @@ Expected status code <200> but was <400>.
           </reporter-output>
         </test-method> <!-- getLoginAPI -->
       </class> <!-- HolofyAPIs.AppLogin -->
+      <class name="HolofyAPIs.EditProduct">
+        <test-method status="PASS" signature="updateProductAPI()[pri:0, instance:HolofyAPIs.EditProduct@72cde7cc]" name="updateProductAPI" duration-ms="4205" started-at="2019-09-24T15:12:38Z" finished-at="2019-09-24T15:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProductAPI -->
+      </class> <!-- HolofyAPIs.EditProduct -->
+      <class name="HolofyAPIs.getProductList">
+        <test-method status="PASS" signature="Productlist()[pri:0, instance:HolofyAPIs.getProductList@79da8dc5]" name="Productlist" duration-ms="1913" started-at="2019-09-24T15:12:30Z" finished-at="2019-09-24T15:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Productlist -->
+      </class> <!-- HolofyAPIs.getProductList -->
+      <class name="HolofyAPIs.EditCreatedSpace">
+        <test-method status="PASS" signature="EditSpaceAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.EditCreatedSpace@c333c60]" name="EditSpaceAPI" duration-ms="3498" started-at="2019-09-24T15:12:27Z" data-provider="updateSpace" finished-at="2019-09-24T15:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Update the Space title through API]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Updated the Space Description through API]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditSpaceAPI -->
+      </class> <!-- HolofyAPIs.EditCreatedSpace -->
+      <class name="HolofyAPIs.RemoveCreateSpace">
+        <test-method status="PASS" signature="deleteSpaceAPI()[pri:0, instance:HolofyAPIs.RemoveCreateSpace@67080771]" name="deleteSpaceAPI" duration-ms="2500" started-at="2019-09-24T15:12:36Z" finished-at="2019-09-24T15:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSpaceAPI -->
+      </class> <!-- HolofyAPIs.RemoveCreateSpace -->
+      <class name="HolofyAPIs.GetSpaceList">
+        <test-method status="PASS" signature="ListOfSpaceType()[pri:0, instance:HolofyAPIs.GetSpaceList@69e1dd28]" name="ListOfSpaceType" duration-ms="1751" started-at="2019-09-24T15:12:20Z" finished-at="2019-09-24T15:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfSpaceType -->
+      </class> <!-- HolofyAPIs.GetSpaceList -->
+      <class name="HolofyAPIs.AddProductToSpace">
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.AddProductToSpace@1eb5174b]" name="getBaseURI" is-config="true" duration-ms="7" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.CreateSpace@11bd0f3b]" name="getBaseURI" is-config="true" duration-ms="1" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.AppLogin@e7edb54]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.EditCreatedSpace@c333c60]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.RemoveProductFromSpace@5fd4f8f5]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.ForgotPasswordWithNumber@378542de]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.getProductList@79da8dc5]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.EditProduct@72cde7cc]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.GetSpaceList@69e1dd28]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.RemoveCreateSpace@67080771]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="getBaseURI()[pri:0, instance:HolofyAPIs.ForgotpasswordWithEmail@3738449f]" name="getBaseURI" is-config="true" duration-ms="0" started-at="2019-09-24T15:12:08Z" finished-at="2019-09-24T15:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseURI -->
+        <test-method status="PASS" signature="AddProductToSpaceAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:HolofyAPIs.AddProductToSpace@1eb5174b]" name="AddProductToSpaceAPI" duration-ms="3459" started-at="2019-09-24T15:12:32Z" data-provider="addProduct" finished-at="2019-09-24T15:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[producttitle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[productdescription]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5cfa540bc7779014978de2bf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5cd45444e119f26c39a55eea]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5cfa5407c7779014978de2be]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5cd454d7e119f26c39a55eeb]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5c8aa18b0605dc668d0f1003]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Smart Devices]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToSpaceAPI -->
+      </class> <!-- HolofyAPIs.AddProductToSpace -->
     </test> <!-- Holofy-APIs -->
   </suite> <!-- Suite -->
 </testng-results>
