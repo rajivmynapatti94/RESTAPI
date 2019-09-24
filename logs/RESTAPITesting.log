@@ -1,0 +1,4 @@
+11:29:20.415 [main] INFO  HolofyAPIs.AppLogin - The response details is : "Invalid password"
+11:29:21.035 [main] INFO  HolofyAPIs.AppLogin - The response details is : "Phone number doesn't exist"
+11:29:21.721 [main] INFO  HolofyAPIs.AppLogin - The response details is : "Invalid password"
+11:29:22.328 [main] INFO  HolofyAPIs.AppLogin - The response details is : "Internal Error"

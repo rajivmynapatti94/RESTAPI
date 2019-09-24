@@ -1,0 +1,892 @@
+{
+	"bedroomCount": "",
+	"sleepsCount": "",
+	"wallet": "5c386c07dda9080fd0d735d3",
+	"createdAt": "2019-08-08T08:11:38.585Z",
+	"ssid": "",
+	"nestThermostats": [],
+	"overlay_color": "rgba(0,0,0,0.15)",
+	"sharedSpaceCount": 0,
+	"title": "title",
+	"channelData": [],
+	"background_color": "#FFFFFF",
+	"currencySymbol": "€",
+	"skills": [
+		{
+			"paymentCta": {
+				"title": "VideoSkill",
+				"isEditable": true,
+				"description": "Descriptiongoeshere",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(0,0,0,0.26)",
+				"image": "",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#000000"
+			},
+			"skill": "5bf518e8d130bb8b73ada06c",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#516aff"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "#d6c9c2",
+					"colorOverlay": {
+						"color": "rgba(0,0,0,0)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [
+				{
+					"sound": false,
+					"isEditable": false,
+					"videoSize": {
+						"height": 100,
+						"width": 200
+					},
+					"loopVideo": false,
+					"_id": "5d4bd93a8731142131b91fbb",
+					"videoTitle": "WhyVideo",
+					"autoPlay": false,
+					"colorOverlay": {
+						"color": "#ff0000",
+						"isEditable": false
+					},
+					"videoControls": false,
+					"videoUrl": "assets/video/space_1553960616487_2511_c1b24636-d48f-42f0-b460-c5085a909509.MP4",
+					"imgUrl": "assets/video/images/438W11553960619105.png"
+				},
+				{
+					"sound": false,
+					"isEditable": false,
+					"videoSize": {
+						"height": 100,
+						"width": 200
+					},
+					"loopVideo": false,
+					"_id": "5d4bd93a8731142131b91fba",
+					"videoTitle": "HowtoOnboard",
+					"autoPlay": false,
+					"colorOverlay": {
+						"color": "#ff0000",
+						"isEditable": false
+					},
+					"videoControls": false,
+					"videoUrl": "assets/video/space_1553960673260_7891_7a565ffc-d021-4ba4-b6b4-3783123f0ba1.MP4",
+					"imgUrl": "assets/video/images/9Flj11553960677960.png"
+				}
+			],
+			"mapCta": {
+				"title": "VideoSkill",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"description": "Descriptiongoeshere",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91fb9",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "TheIntro",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "http://18.130.209.176:3000/assets/video/space_1553871985833_3391_Intro.mp4",
+				"overlayColor": "rgba(0,0,0,0.35)",
+				"backgroundVideoMob": "assets/video/space_1553871985833_3391_Intro.mp4",
+				"type": "",
+				"description": "Shortvideosthatrevealthespace",
+				"logo": ""
+			},
+			"skill_type": "video",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [],
+				"zoomLevel": "15"
+			}
+		},
+		{
+			"paymentCta": {
+				"title": "MapsSkill",
+				"isEditable": true,
+				"description": "Thenittygrittymaprecommendations",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"image": "",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ab9c9c"
+			},
+			"skill": "5bd2e57cebb3551045f7fad0",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(0,0,0,0.35)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#ffffff",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#5379ff"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "#000000",
+					"colorOverlay": {
+						"color": "rgba(0,0,0,0)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [],
+			"mapCta": {
+				"title": "TheGuide",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"description": "Googlecan'ttellyouwhatalocalcan",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(0,0,0,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91fac",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "http://18.130.209.176:3000/",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"backgroundVideoMob": "",
+				"type": "",
+				"description": "",
+				"logo": ""
+			},
+			"skill_type": "map",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [
+					{
+						"tabTitle": "🍽",
+						"_id": "5d4bd93a8731142131b91fb6",
+						"tabId": "",
+						"addresses": [
+							{
+								"address": "ShoreditchHouse,1EborSt,London,EnglandE16JJ,UnitedKingdom",
+								"title": "Brunchplace",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.076261,
+										51.523884
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb8",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-5dbb07049941c0407f5cffae7bf35ef326c3fcf6.png",
+								"stepId": ""
+							},
+							{
+								"address": "ShoreditchGrind,213OldStreetRoundabout,London,EnglandEC1Y1BE,UnitedKingdom",
+								"title": "LunchPlace",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.087828,
+										51.52578
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb7",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-cd8c7328f64f0ff5c7cc0a7ac0d0cc3887068166.png",
+								"stepId": ""
+							}
+						]
+					},
+					{
+						"tabTitle": "🛒",
+						"_id": "5d4bd93a8731142131b91fb3",
+						"tabId": "",
+						"addresses": [
+							{
+								"address": "Tesco,100AWestCromwellRd,London,EnglandW148PB,UnitedKingdom",
+								"title": "Supermarket",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.201008,
+										51.49266
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb5",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-808e65b736e132c51fac12d8522847a9583ef71c.png",
+								"stepId": ""
+							},
+							{
+								"address": "Spitalfields,London,GreaterLondon,England,UnitedKingdom",
+								"title": "FoodMarket",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.0752,
+										51.5195
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb4",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-5c84157721d3ed6536eacfe2022b3bd7139023d2.png",
+								"stepId": ""
+							}
+						]
+					},
+					{
+						"tabTitle": "🏥",
+						"_id": "5d4bd93a8731142131b91fb0",
+						"tabId": "",
+						"addresses": [
+							{
+								"address": "Boots,44-46RegentSt,London,EnglandW1D7ET,UnitedKingdom",
+								"title": "Pharmacy",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.13478,
+										51.510147
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb2",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-4613c3fa00daddff065f5a9f8825a00847939946.png",
+								"stepId": ""
+							},
+							{
+								"address": "Boots,385-389OxfordSt,London,EnglandW1C2JG,UnitedKingdom",
+								"title": "24/7DrugStore",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.14828049999999998,
+										51.5144315
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fb1",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-5cb2a77937663085435d20295c3d3e1903837754.png",
+								"stepId": ""
+							}
+						]
+					},
+					{
+						"tabTitle": "🏛",
+						"_id": "5d4bd93a8731142131b91fad",
+						"tabId": "",
+						"addresses": [
+							{
+								"address": "VictoriaandAlbertMuseum(V&A),CromwellRd,London,EnglandSW72RL,UnitedKingdom",
+								"title": "Museum",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.17243,
+										51.496696
+									]
+								},
+								"_id": "5d4bd93a8731142131b91faf",
+								"description": "Example,pleaseedit.",
+								"image": "spaces/image-bfde3153b0bbb6f9ac98d9f5410a29728680dab1.png",
+								"stepId": ""
+							},
+							{
+								"address": "WhiteCube,144-152BermondseySt,London,EnglandSE13GS,UnitedKingdom",
+								"title": "Gallery",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-0.08168,
+										51.4996715
+									]
+								},
+								"_id": "5d4bd93a8731142131b91fae",
+								"description": "Thisisonlyanexample.Feelfreetoaddyourownrecommendations.",
+								"image": "spaces/image-bc85360b03919b8186df2f22cfc16c8a5fc5c3b1.png",
+								"stepId": ""
+							}
+						]
+					}
+				],
+				"zoomLevel": "15"
+			}
+		},
+		{
+			"paymentCta": {
+				"title": "TheServices",
+				"isEditable": true,
+				"description": "Theextrasandtheperks",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(0,0,0,0.25)",
+				"image": "spaces/image-dab1ddc82a680a5406e9a1068651b149fee6678f.png",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#000000"
+			},
+			"skill": "5c46a9feaced2b01462dc6c2",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#0038FF"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(0,0,0,0.35)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "rgba(255,255,255,0)",
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [],
+			"mapCta": {
+				"title": "PaymentSkill",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"description": "Descriptiongoeshere",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91fab",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": [
+					{
+						"tabTitle": "Cleaning",
+						"_id": "5ccd85e7d66ddb12eef5e4a3",
+						"products": [
+							{
+								"title": "Fullhouserefresh",
+								"selectedQuantity": 0,
+								"_id": "5ccd85e7d66ddb12eef5e4a4",
+								"quantity": "1",
+								"description": "Fullclean,newsheets,newtowels",
+								"image": "spaces/image-420676e04637c467b33908799f0cc3deb167043f.png",
+								"price": "30"
+							}
+						]
+					},
+					{
+						"tabTitle": "Airportpickup",
+						"_id": "5ccd85e7d66ddb12eef5e4a1",
+						"products": [
+							{
+								"title": "Heathrow",
+								"selectedQuantity": 0,
+								"_id": "5ccd85e7d66ddb12eef5e4a2",
+								"quantity": "1",
+								"description": "PickupatArrivals",
+								"image": "spaces/image-3c10080dfc3a2a6ed3ca1be6d64e4fcb15f1224e.png",
+								"price": "70"
+							}
+						]
+					}
+				]
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "PaymentSkill",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"backgroundVideoMob": "",
+				"type": "",
+				"description": "Descriptiongoeshere",
+				"logo": ""
+			},
+			"skill_type": "payment",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [],
+				"zoomLevel": "15"
+			}
+		},
+		{
+			"paymentCta": {
+				"title": "NestSkill",
+				"isEditable": true,
+				"description": "Makeitcozy",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"image": "",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ab9c9c"
+			},
+			"skill": "5cd45cc5fff20005a2fa4bec",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#0038FF"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "#d6c9c2",
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [],
+			"mapCta": {
+				"title": "NestSkill",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						-0.0789994,
+						51.5251546
+					]
+				},
+				"description": "Makeitcozy",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91faa",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "spaces/image-ef2159f186eef00c09c05bdbef485c248b864dba.png",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "NestSkill",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"backgroundVideoMob": "",
+				"type": "",
+				"description": "Makeitcozy",
+				"logo": ""
+			},
+			"skill_type": "nest_thermostat",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [],
+				"zoomLevel": "15"
+			}
+		},
+		{
+			"paymentCta": {
+				"title": "AccessSkill",
+				"isEditable": true,
+				"description": "Keylessentrytoyourhome",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"image": "spaces/image-5cb1e985a7c3b3e5e4f7640ec8d78db07ca3d1f8.png",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ab9c9c"
+			},
+			"skill": "5cebe179b8b4b264383bf748",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#0038FF"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "#d6c9c2",
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [],
+			"mapCta": {
+				"title": "AccessSkill",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"description": "Keylessentrytoyourhome",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91fa9",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "spaces/image-b8b004f5c2a0d3fe0b330038b7aec7d19e8cdd7d.png",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "AccessSkill",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "",
+				"overlayColor": "rgba(0,0,0,0.35)",
+				"backgroundVideoMob": "",
+				"type": "",
+				"description": "Keylessentrytoyourhome",
+				"logo": ""
+			},
+			"skill_type": "access",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [],
+				"zoomLevel": "15"
+			}
+		},
+		{
+			"paymentCta": {
+				"title": "WifiSkill",
+				"isEditable": true,
+				"description": "Hasslefreeconnection",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"image": "",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ab9c9c"
+			},
+			"skill": "5d07714f6db3f40596f33c3f",
+			"skillDetails": {
+				"mapTabComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"isEditable": true,
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"activeColor": "#0038FF"
+				},
+				"productComponent": {
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"isEditable": true
+				},
+				"layout": {
+					"isDescriptionEditable": true,
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"isEditable": true,
+						"imageSize": {
+							"height": "",
+							"width": ""
+						}
+					},
+					"description": "",
+					"textColor": "#ffffff",
+					"isSkillTitleEditable": true,
+					"guiColor": "rgba(255,255,255,0.28)",
+					"skillTitle": "",
+					"backgroundColor": "#d6c9c2",
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"videoComponent": [],
+			"mapCta": {
+				"title": "WifiSkill",
+				"address": "1FlemingWay,LondonSE288NR,UK",
+				"isEditable": true,
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"description": "Hasslefreeconnection",
+				"textColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)"
+			},
+			"modifiedAt": "",
+			"_id": "5d4bd93a8731142131b91fa8",
+			"createdAt": "",
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"layoutFundamentals": {
+				"backgroundImage": "spaces/image-wifi-skill-bg.png",
+				"country": [],
+				"subtitleColor": "#ffffff",
+				"isEditable": true,
+				"titleColor": "#ffffff",
+				"title": "ConnecttoWiFi",
+				"backgroundColor": "#ffffff",
+				"backgroundVideo": "",
+				"overlayColor": "rgba(0,0,0,0.35)",
+				"backgroundVideoMob": "",
+				"type": "",
+				"description": "Hasslefreeconnection",
+				"logo": ""
+			},
+			"skill_type": "wifi",
+			"mapComponent": {
+				"mapStyle": "dark",
+				"skillDescription": [],
+				"zoomLevel": "15"
+			}
+		}
+	],
+	"currency": "EUR",
+	"_id": "5d4bd93a8731142131b91fa7",
+	"isDeleted": "no",
+	"isSharedWallet": false,
+	"modifiedAt": "2019-08-08T08:11:38.585Z",
+	"title_color": "#ffffff",
+	"isPrivate": false,
+	"sharedWithCount": 0,
+	"spaceCardVideo": {
+		"spaceSound": false,
+		"spaceLoopVideo": false,
+		"spaceVideoIsEditable": false,
+		"spaceAutoPlay": false,
+		"spaceVideoUrl": ""
+	},
+	"image": "",
+	"nestStructureId": "",
+	"user": "5cfa5407c7779014978de2be",
+	"smartLocks": [],
+	"wpaPassword": "",
+	"ARCounter": 0,
+	"spacetemplate": "spacetemplate",
+	"userproducttemplate": [],
+	"isActive": "yes",
+	"description": "description",
+	"subtitle_color": "#ffffff",
+	"userSpaceTemplateId": "spacecardid"
+}

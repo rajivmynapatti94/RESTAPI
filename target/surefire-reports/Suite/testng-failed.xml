@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Holofy-APIs(failed)">
+    <classes>
+      <class name="HolofyAPIs.AppLogin">
+        <methods>
+          <include name="getLoginAPI" invocation-numbers="0"/>
+          <include name="getBaseURI"/>
+        </methods>
+      </class> <!-- HolofyAPIs.AppLogin -->
+    </classes>
+  </test> <!-- Holofy-APIs(failed) -->
+</suite> <!-- Failed suite [Suite] -->

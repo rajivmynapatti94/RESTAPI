@@ -1,0 +1,335 @@
+{
+	"userProductTemplateId": "productid",
+	"wallet": "5cfa540bc7779014978de2bf",
+	"title": "BT speaker fROM C1 userProduct template and Its is good",
+	"description": "Appliances",
+	"background_color": "#555555",
+	"overlay_color": "#333323",
+	"title_color": "#554555",
+	"subtitle_color": "#564544",
+	"type": "map",
+	"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAACd0lEQVRIib2WO2hUQRSGvwlbREmxSrBIJUGCCGJYRFMFsVCwEJUEgliJpUgQQQsbEdlCxEcKsTGFWitCsPDRaBQFUcEoGnwEjRpiUHyhJPBZeBYuuzchCWYP3GLOnfN/M2cOcwYyprar/eqIOun8bTI0+tV2qk1tUMvqqNqrtqqFmomzNLUQGr2hWVYbshPK6m116XwhM8CXhna54ijFKv47rAo6qpaS2g88SSmdWihgQHuBNcThti4kLICt6ghRUfMukDkAC+okqgsNy0AzpVonmzNQ7VIH1Jvq/jkfx1xSqh5VJ9Qj6gH1hXptthKq0wLVRnV5Je1RZX+yV5VaVD+qXRlfi1qcDpibUnUPMAG8AYYDshZ4m1J6XJmXUvoK3ADWq83qbWAUmFD78vZSA1TbgD6gG1gEXAEuAR+AFrWpKqQNGAOOA7+AJcBqYAfQk7vNqvEu9WFm3BIdoBh34oC6Ql2mnoiUNqvP1W2ZuLPq6WpWXkqfAivVVTHuAt5H+rqBKWA4drUR2JxS+gw8A7ZH5ynGv6Fq8ZqSTik9Vs8Aj9RPQDFABOwCMAg0Ai+Bb/HvIHAd+AgsBu4A52u2M0OVrlA3VbqIulP9rr5SB+Mbisotx5zF6oboQPmsnDPcot5Xx9TxuNw7QnhnjkhJ/aL2qJcjZjwWszd7bDVAdav6Uz0UK+1U16mH1YG8TETckbgAWiOmU92tvlOPzQQcUvflCJ5TT84A7FGf5Pg7/NeNihVgAZhSCymlKeAucDVH8x7wezog8HqauAfARaBJ/QFM1b0BNwC3gK0LDQzGrXo/otorjvo9E8NZ34dwZmLJ///UL2UZfwG88GtkPwEOMAAAAABJRU5ErkJggg==",
+	"skills": [
+		{
+			"skill": "5c46a9feaced2b01462dc6c2",
+			"skill_type": "payment",
+			"_id": "5cd4012d5f07165dc0f7587f",
+			"modifiedAt": null,
+			"createdAt": null,
+			"paymentComponent": {
+				"skillDescription": []
+			},
+			"mapComponent": {
+				"mapStyle": "dark",
+				"zoomLevel": "15",
+				"skillDescription": []
+			},
+			"videoComponent": [],
+			"skillDetails": {
+				"productComponent": {
+					"addressColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"isEditable": true
+				},
+				"mapTabComponent": {
+					"addressColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"activeColor": "#0038FF",
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"isEditable": true
+				},
+				"layout": {
+					"backgroundColor": "#d6c9c2",
+					"guiColor": "rgba(255, 255, 255, 0.28)",
+					"textColor": "#ffffff",
+					"skillTitle": "",
+					"description": "",
+					"headerLogo": "spaces/image-c2d6b8e3aaf2b138d23521c9771a1f53cc599018.png",
+					"idHeaderLogoEditable": true,
+					"isDescriptionEditable": true,
+					"isSkillTitleEditable": true,
+					"backgroundImage": {
+						"imageUrl": "spaces/image-c06ab1846b96f2dda9eb7cd5af926617aa952435.png",
+						"imageSize": {
+							"width": null,
+							"height": null
+						},
+						"isEditable": true
+					},
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"paymentCta": {
+				"title": "Payment Skill",
+				"description": "Description goes here",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"textColor": "#ffffff",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ab9c9c",
+				"image": "spaces/image-13cfcc841a58028df50bd6e8befc586cceb7944b.png",
+				"isEditable": true
+			},
+			"mapCta": {
+				"address": "1 Fleming Way, London SE28 8NR, UK",
+				"title": "Payment Skill",
+				"description": "Description goes here",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"textColor": "#ffffff",
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						0.1278,
+						51.5074
+					]
+				},
+				"isEditable": true
+			},
+			"layoutFundamentals": {
+				"type": "",
+				"titleColor": "#ffffff",
+				"subtitleColor": "#ffffff",
+				"backgroundColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"backgroundImage": "spaces/image-c72d9eb734180d70e326d2bd76ae0ae7a0d10094.png",
+				"logo": "spaces/image-71d3d20cf52993ba86c877feafb3c5bf440c2e8c.png",
+				"backgroundVideo": "",
+				"backgroundVideoMob": "",
+				"title": "Payment Skill",
+				"description": "Description goes here",
+				"isEditable": true,
+				"country": []
+			}
+		},
+		{
+			"skill": "5bd2e57cebb3551045f7fad0",
+			"skill_type": "map",
+			"_id": "5c377da4bf4f153a348059ce",
+			"modifiedAt": null,
+			"createdAt": null,
+			"mapComponent": {
+				"mapStyle": "dark",
+				"zoomLevel": "15",
+				"skillDescription": [
+					{
+						"tabTitle": "s1",
+						"_id": "5c377da4bf4f153a348059cf",
+						"addresses": [
+							{
+								"image": "spaces/image-9a82e9a80c0b81c8f3fb85b2e6be396799dd969e.png",
+								"address": "United States",
+								"title": "f1",
+								"location": {
+									"type": "Point",
+									"coordinates": [
+										-97.922211,
+										39.381266
+									]
+								},
+								"description": "f1",
+								"_id": "5c377da4bf4f153a348059d1"
+							}
+						]
+					}
+				]
+			},
+			"videoComponent": [],
+			"skillDetails": {
+				"productComponent": {
+					"addressColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"isEditable": true
+				},
+				"mapTabComponent": {
+					"addressColor": "#ffffff",
+					"titleColor": "#ffffff",
+					"descColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"activeColor": "#0038FF",
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"xPosition": "",
+					"isEditable": true
+				},
+				"layout": {
+					"backgroundColor": "#ffffff",
+					"textColor": "#ffffff",
+					"description": "",
+					"guiColor": "rgba(255, 255, 255, 0.28)",
+					"headerLogo": "spaces/image-fe92ac2e3224e20e68c8c6cff062a32fdc033cd4.png",
+					"skillTitle": "",
+					"idHeaderLogoEditable": true,
+					"isDescriptionEditable": true,
+					"isSkillTitleEditable": true,
+					"backgroundImage": {
+						"imageUrl": "spaces/image-530ea2c11f48bf6d760089b36ee9d709a96987c3.png",
+						"imageSize": {
+							"width": null,
+							"height": null
+						},
+						"isEditable": true
+					},
+					"colorOverlay": {
+						"color": "rgba(122,159,121,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"mapCta": {
+				"address": "Big Ben, Оболонський просп., 1Б, Київ, Київська, Ukraine",
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						30.49879,
+						50.50957
+					]
+				},
+				"textColor": "rgb(26,154,171)",
+				"overlayColor": "rgba(155,190,128,0.25)",
+				"title": "Maps Skill 2",
+				"description": "description 2",
+				"isEditable": true
+			},
+			"layoutFundamentals": {
+				"titleColor": "#ffffff",
+				"backgroundColor": "#ffffff",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"logo": "spaces/image-ff62993cc1fe3e5b8bb69573ca9f0491a8dbd415.png",
+				"subtitleColor": "#ffffff",
+				"type": "",
+				"backgroundImage": "spaces/image-00a3a54cb5fd05370d2d1dd1c9298d3eff3c7394.png",
+				"isEditable": true
+			}
+		},
+		{
+			"skill_type": "video",
+			"skill": "5bf518e8d130bb8b73ada06c",
+			"_id": "5c45713a533bef408702a27b",
+			"modifiedAt": null,
+			"createdAt": null,
+			"mapComponent": {
+				"mapStyle": "dark",
+				"zoomLevel": "15",
+				"skillDescription": []
+			},
+			"videoComponent": [
+				{
+					"videoSize": {
+						"height": 100,
+						"width": 200
+					},
+					"colorOverlay": {
+						"isEditable": true,
+						"color": "#ff0000"
+					},
+					"loopVideo": false,
+					"autoPlay": true,
+					"sound": false,
+					"videoControls": false,
+					"isEditable": false,
+					"imgUrl": "assets/video/images/NV0uG1547717194885.png",
+					"videoTitle": "Test",
+					"videoUrl": "assets/video/space_1547717186156_2851_ParkPlazaVictoriaLondon_HotelVideo.mp4",
+					"_id": "5c45713a533bef408702a27c"
+				}
+			],
+			"skillDetails": {
+				"mapTabComponent": {
+					"titleColor": "#ffffff",
+					"overlayColor": "rgba(255,255,255,0.25)",
+					"descColor": "#ffffff",
+					"addressColor": "#ffffff",
+					"guiColor": "#ffffff",
+					"isEditable": true
+				},
+				"tabComponent": {
+					"activeText": "#ffffff",
+					"inactiveColor": "#8F8F8F",
+					"inactiveText": "#ffffff",
+					"activeColor": "#0038FF",
+					"xPosition": "",
+					"isEditable": true
+				},
+				"layout": {
+					"backgroundColor": "#ffffff",
+					"description": "",
+					"skillTitle": "",
+					"textColor": "#ffffff",
+					"guiColor": "rgba(255, 255, 255, 0.28)",
+					"headerLogo": "",
+					"idHeaderLogoEditable": true,
+					"isDescriptionEditable": true,
+					"isSkillTitleEditable": true,
+					"backgroundImage": {
+						"imageUrl": "",
+						"imageSize": {
+							"height": null,
+							"width": null
+						},
+						"isEditable": true
+					},
+					"colorOverlay": {
+						"color": "rgba(255,255,255,0.25)",
+						"isEditable": true
+					}
+				}
+			},
+			"mapCta": {
+				"title": "Video Skill",
+				"description": "Description goes here",
+				"overlayColor": "rgba(255,255,255,0.25)",
+				"textColor": "#ffffff",
+				"address": "1 Fleming Way, London SE28 8NR, UK",
+				"mapCtaLocation": {
+					"type": "Point",
+					"coordinates": [
+						-81.242007,
+						42.967705
+					]
+				},
+				"isEditable": true
+			},
+			"layoutFundamentals": {
+				"backgroundVideoMob": "videos/video_skill.mp4",
+				"logo": "",
+				"backgroundColor": "rgb(133,82,82)",
+				"overlayColor": "rgba(126,94,94,0.25)",
+				"backgroundImage": "",
+				"subtitleColor": "#c21c1c",
+				"description": "aaaaaaaaaa",
+				"title": "bbbbbbbbbbb",
+				"type": "",
+				"backgroundVideo": "http://18.130.209.176:3000/videos/video_skill.mp4",
+				"titleColor": "#6e6666",
+				"isEditable": true,
+				"country": []
+			}
+		}
+	],
+	"ARScanned": false,
+	"ARSkew": 0,
+	"__v": 0,
+	"ARLogo": "spaces/156696986187861077.png"
+}

@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Holofy-APIs</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Holofy-APIs</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 27 18:57:33 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29513 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HolofyAPIs.EditCreatedSpace.EditSpace()'><b>EditSpace</b><br>Test class: HolofyAPIs.EditCreatedSpace<br>Parameters: 10, 10, Update the Space title through API, Updated the Space Description through API, 200</td>
+<td></td>
+<td>5</td>
+<td>HolofyAPIs.EditCreatedSpace@19e4653c</td></tr>
+<tr>
+<td title='HolofyAPIs.GetSpaceList.ListOfSpaceType()'><b>ListOfSpaceType</b><br>Test class: HolofyAPIs.GetSpaceList</td>
+<td></td>
+<td>1</td>
+<td>HolofyAPIs.GetSpaceList@795509d9</td></tr>
+<tr>
+<td title='HolofyAPIs.AddProductToSpace.ProductToSpace()'><b>ProductToSpace</b><br>Test class: HolofyAPIs.AddProductToSpace<br>Parameters: producttitle, productdescription, 5cfa540bc7779014978de2bf, 5cd45444e119f26c39a55eea, 5cfa5407c7779014978de2be, 5cd454d7e119f26c39a55eeb, 5c8aa18b0605dc668d0f1003, Smart Devices, 200</td>
+<td></td>
+<td>3</td>
+<td>HolofyAPIs.AddProductToSpace@53045c6c</td></tr>
+<tr>
+<td title='HolofyAPIs.getProductList.Productlist()'><b>Productlist</b><br>Test class: HolofyAPIs.getProductList</td>
+<td></td>
+<td>1</td>
+<td>HolofyAPIs.getProductList@74e28667</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotPasswordWithNumber.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotPasswordWithNumber<br>Parameters: 9876543212, +44, 200</td>
+<td></td>
+<td>3</td>
+<td>HolofyAPIs.ForgotPasswordWithNumber@7161d8d1</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotPasswordWithNumber.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotPasswordWithNumber<br>Parameters: 1234567890, +1, 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotPasswordWithNumber@7161d8d1</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotPasswordWithNumber.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotPasswordWithNumber<br>Parameters: , , 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotPasswordWithNumber@7161d8d1</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotPasswordWithNumber.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotPasswordWithNumber<br>Parameters: test+12@gmail.com, test, 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotPasswordWithNumber@7161d8d1</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotpasswordWithEmail.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotpasswordWithEmail<br>Parameters: test+12@gmail.com, 200</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotpasswordWithEmail@663c9e7a</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotpasswordWithEmail.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotpasswordWithEmail<br>Parameters: test@grr.la, 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotpasswordWithEmail@663c9e7a</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotpasswordWithEmail.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotpasswordWithEmail<br>Parameters: , 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotpasswordWithEmail@663c9e7a</td></tr>
+<tr>
+<td title='HolofyAPIs.ForgotpasswordWithEmail.appforgotpassword()'><b>appforgotpassword</b><br>Test class: HolofyAPIs.ForgotpasswordWithEmail<br>Parameters: 1234567890, 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.ForgotpasswordWithEmail@663c9e7a</td></tr>
+<tr>
+<td title='HolofyAPIs.CreateSpace.createNewSpace()'><b>createNewSpace</b><br>Test class: HolofyAPIs.CreateSpace<br>Parameters: 2, 5, My New Space From API, Verifying if the space is getting created or not, 200</td>
+<td></td>
+<td>2</td>
+<td>HolofyAPIs.CreateSpace@5149d738</td></tr>
+<tr>
+<td title='HolofyAPIs.RemoveCreateSpace.deleteSpace()'><b>deleteSpace</b><br>Test class: HolofyAPIs.RemoveCreateSpace</td>
+<td></td>
+<td>3</td>
+<td>HolofyAPIs.RemoveCreateSpace@1cf6d1be</td></tr>
+<tr>
+<td title='HolofyAPIs.AppLogin.getValidLogin()'><b>getValidLogin</b><br>Test class: HolofyAPIs.AppLogin<br>Parameters: 9876543212, qwerty, +44, 200</td>
+<td></td>
+<td>1</td>
+<td>HolofyAPIs.AppLogin@74d1dc36</td></tr>
+<tr>
+<td title='HolofyAPIs.AppLogin.getValidLogin()'><b>getValidLogin</b><br>Test class: HolofyAPIs.AppLogin<br>Parameters: 1234567890, test123, +1, 404</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.AppLogin@74d1dc36</td></tr>
+<tr>
+<td title='HolofyAPIs.AppLogin.getValidLogin()'><b>getValidLogin</b><br>Test class: HolofyAPIs.AppLogin<br>Parameters: 9876543212, test123, +44, 400</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.AppLogin@74d1dc36</td></tr>
+<tr>
+<td title='HolofyAPIs.AppLogin.getValidLogin()'><b>getValidLogin</b><br>Test class: HolofyAPIs.AppLogin<br>Parameters: 7097538494, test@123, +91, 404</td>
+<td></td>
+<td>0</td>
+<td>HolofyAPIs.AppLogin@74d1dc36</td></tr>
+</table><p>
+</body>
+</html>
