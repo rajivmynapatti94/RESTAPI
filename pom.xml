@@ -100,8 +100,8 @@
 							<mailAltConfig>true</mailAltConfig>
 
 							<!-- Email Authentication(USername and Password) -->
-							<mailuser>rajiv.mynapatti@indianic.com</mailuser>
-							<mailpassword>mynapatti$1</mailpassword>
+							<mailuser>test.ponting17@gmail.com</mailuser>
+							<mailpassword>Test@1234</mailpassword>
 
 							<receivers>
 								<!-- To Email address -->
