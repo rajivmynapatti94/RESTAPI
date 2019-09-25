@@ -112,7 +112,7 @@
 							<fileSets>
 								<fileSet>
 									<!-- Report directory Path -->
-									<directory>/Users/indianic/git/RESTAPI/target/surefire-reports</directory>
+									<directory>${project.basedir}/target/surefire-reports</directory>
 									<includes>
 										<!-- Report file name -->
 										<include>emailable-report.html</include>
@@ -124,7 +124,7 @@
 
 								<fileSet>
 									<!-- Logs directory Path -->
-									<directory>/Users/indianic/git/RESTAPI/logs</directory>
+									<directory>${project.basedir}/logs</directory>
 									<includes>
 										<!-- Report file name -->
 										<include>**/*.log</include>
