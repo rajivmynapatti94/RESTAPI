@@ -84,7 +84,7 @@
 
 						<configuration>
 							<!-- From Email address -->
-							<from>rajiv.mynapatti@indianic.com</from>
+							<from>test.ponting17@gmail.com</from>
 
 							<!-- Email subject -->
 							<subject>HOLOFY - REST API Automation Extent Reporting</subject>
