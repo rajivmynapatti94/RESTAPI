@@ -9,7 +9,7 @@
 		<classes>
 
 			<class name="HolofyAPIs.AppLogin" />
-			<class name="HolofyAPIs.ForgotPasswordWithNumber" />
+			<!-- <class name="HolofyAPIs.ForgotPasswordWithNumber" />
 			<class name="HolofyAPIs.ForgotpasswordWithEmail" />
 			<class name="HolofyAPIs.GetSpaceList" />
 			<class name="HolofyAPIs.CreateSpace" />
@@ -18,7 +18,7 @@
 			<class name="HolofyAPIs.AddProductToSpace" />
 			<class name="HolofyAPIs.RemoveCreateSpace" />
 			<class name="HolofyAPIs.EditProduct" />
-			<class name="HolofyAPIs.RemoveProductFromSpace" />
+			<class name="HolofyAPIs.RemoveProductFromSpace" /> -->
 
 
 		</classes>
